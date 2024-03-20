@@ -1,6 +1,6 @@
 {
   "name": "pixxle",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An npm package for image compression using Sharp.",
   "main": "app.js",
   "scripts": {

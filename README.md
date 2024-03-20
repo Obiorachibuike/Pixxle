@@ -1,16 +1,16 @@
-Below is a sample README.md file for your image-compressor npm package:
 
-```markdown
-# Image Compressor
+
+
+# Pixxle
 
 An npm package for image compression using the Sharp library.
 
 ## Installation
 
-You can install the Image Compressor package via npm:
+You can install the Pixxle package via npm:
 
 ```bash
-npm install image-compressor
+npm install pixxle
 ```
 
 ## Usage
@@ -18,10 +18,10 @@ npm install image-compressor
 In your JavaScript code, require the `compressImage` function from the package and use it to compress images.
 
 ```javascript
-const compressImage = require('image-compressor');
+const pixxle = require('pixxle');
 
 // Example usage
-compressImage('input.jpg', 'output.jpg', { width: 800, height: 600 });
+const compressedImage = pixxle.compressImage('input.jpg', 'output.jpg', { width: 800, height: 600 });
 ```
 
 ### Parameters
@@ -33,7 +33,7 @@ compressImage('input.jpg', 'output.jpg', { width: 800, height: 600 });
 ### Example
 
 ```javascript
-compressImage('input.jpg', 'output.jpg', { width: 800, height: 600 });
+pixxle.compressImage('input.jpg', 'output.jpg', { width: 800, height: 600 });
 ```
 
 ## Dependencies
@@ -49,4 +49,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Special thanks to the developers of the Sharp library for providing powerful image processing capabilities.
 ```
 
-Make sure to replace the license details with your preferred license and provide appropriate acknowledgments or credits. Additionally, you may want to include more detailed instructions or examples depending on the complexity of your package.
