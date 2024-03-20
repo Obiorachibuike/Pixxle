@@ -33,7 +33,7 @@ const compressedImage = pixxle.compressImage('input.jpg', 'output.jpg', { width:
 ### Example
 
 ```javascript
-pixxle.compressImage('input.jpg', 'output.jpg', { width: 800, height: 600 });
+const compressedImage = pixxle.compressImage('input.jpg', 'output.jpg', { width: 800, height: 600 });
 ```
 
 ## Dependencies
