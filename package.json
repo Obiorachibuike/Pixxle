@@ -1,0 +1,14 @@
+{
+  "name": "pixxle",
+  "version": "1.0.0",
+  "description": "An npm package for image compression using Sharp.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chibuike Praise Obiora",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "^0.33.2"
+  }
+}
